@@ -18,10 +18,10 @@ namespace OutfitForecastBot
     {
         private static string token = "7060461024:AAH_wiOd5I8ksoATT-wxKuCS3FBQll6PRoE";
         private static TelegramBotClient bot = new TelegramBotClient(token);
-        static string NameCity;
-        static float tempOfCity;
-        static string nameOfCity;
-        static string answerOnWeather;
+        private static string NameCity;
+        private static float tempOfCity;
+        private static string nameOfCity;
+        private static string answerOnWeather;
 
         static void Main(string[] args)
         {
